@@ -1,42 +1,43 @@
-#body{
+.body{
     display: flex;
+    flex-direction: column;
     border: 2px solid black;
-    width: 100vh;
+    width: 100vw;
     height: 100vh;
     justify-content: center;
     align-items: center;
 }
 
-#contenedor-perfil{
+.contenedor-perfil{
  display: flex;
  flex-direction: column;
  border: 2px solid black;
- width: 40%;
- height: 50%;
+ width: 50%;
+ height: 100%;
  justify-content: center;
  align-items: center;
 }
 
-#contenedor-imagenes{
+.contenedor-imagenes{
     display: flex ;
     flex-direction: row;
     border: 2px solid black;
-    width: 20%;
-    height: 20%;
+    
+    width: 50%; 
+    height: 50%; 
     
    }
 
-#foto1{
-    width: 50%;
-    height: 40%;
-   
+.foto1{
+    
+    margin: auto;
 
 }
-#foto2{
-    width: 50%;
-    height: 40%;
+.foto2{
+   
+    margin: auto;
 }
-#foto3{
-    width: 50%;
-    height: 40%;    
+.foto3{
+      
+    margin: auto;  
 }
