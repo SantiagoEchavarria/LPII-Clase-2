@@ -1,0 +1,43 @@
+.body{
+    display: flex;
+    flex-direction: column;
+    border: 2px solid black;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenedor-perfil{
+ display: flex;
+ flex-direction: column;
+ border: 2px solid black;
+ width: 50%;
+ height: 100%;
+ justify-content: center;
+ align-items: center;
+}
+
+.contenedor-imagenes{
+    display: flex ;
+    flex-direction: row;
+    border: 2px solid black;
+    
+    width: 50%; 
+    height: 50%; 
+    
+   }
+
+.foto1{
+    
+    margin: auto;
+
+}
+.foto2{
+   
+    margin: auto;
+}
+.foto3{
+      
+    margin: auto;  
+}
